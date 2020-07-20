@@ -1,5 +1,19 @@
 body {
 	color: deeppink;
-	text-align: center;
 	font-family: Arial;
 }
+
+.menu {
+	float: right;
+}
+
+.menu ol {
+	height: 70px;
+	display: flex;
+	list-style: none;
+}
+
+.menu li {
+	margin-left: 15px;
+}
+
